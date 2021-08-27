@@ -1,0 +1,26 @@
+{
+  "name": "jest-mocking-patterns",
+  "version": "1.0.0",
+  "description": "Demonstration of different patterns for using Jest in the real world.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mark Smithson",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.6.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.968.0"
+  }
+}
